@@ -18,4 +18,15 @@ code .
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-### Faça o restart do aplicativo
+Faça o restart do aplicativo caso esteja baixando o UV **(Caso já tenha instalado não será necessario)**
+
+```bash
+uv sync
+```
+
+## Sincronizar o Repositório
+
+```bash
+git pull
+```
+
